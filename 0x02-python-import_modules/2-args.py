@@ -1,5 +1,5 @@
-#!/usr/bin/pyhton3
-if __name == "__main__":
+#!/usr/bin/python3
+if __name__ == "__main__":
     from sys import argv
     if len(argv) > 0:
         print("{} arguments:".format(len(argv)), end="\n")
