@@ -12,7 +12,7 @@ if operator not in ['+', '-', '*', '/']:
     sys.exit(1)
 
 a = int(sys.argv[1])
-b = int(sys.argv[2])
+b = int(sys.argv[3])
 
 if operator == '+':
     result = add(a, b)
