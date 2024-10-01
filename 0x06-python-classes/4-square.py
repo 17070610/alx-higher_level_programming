@@ -28,7 +28,6 @@ class Square:
         else:
             self.__size = size
 
-    @size.setter
     def size(self, value):
         """
         Property setter to set the value of the size of the square
