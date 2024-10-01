@@ -28,6 +28,16 @@ class Square:
         else:
             self.__size = size
 
+    def size(self):
+        """
+        Retrieves the size of the square
+
+        Returns:
+            self.__size(int): Size of the square
+        """
+
+        return self.__size
+
     def size(self, value):
         """
         Property setter to set the value of the size of the square
