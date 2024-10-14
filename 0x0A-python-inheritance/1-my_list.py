@@ -8,6 +8,12 @@ class MyList(list):
     """
     This is class MyList that defines print_sorted method
     """
+    def __init__(self):
+        """
+        Initializes the object
+        """
+        super().__init__()
+
     def print_sorted(self):
         """
         Prints a sorted list
