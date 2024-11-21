@@ -2,5 +2,5 @@
 
 CREATE TABLE IF NOT EXISTS unique_id(
 	id DEFAULT 1 UNIQUE,
-	name VARCHAR(255)
+	name VARCHAR(256)
 );
