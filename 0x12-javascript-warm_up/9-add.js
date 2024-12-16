@@ -6,7 +6,7 @@ function add(a, b) {
   return (parseInt(a, 10) + parseInt(b, 10));
 }
 
-let a = args[0];
-let b = args[1];
+const a = args[0];
+const b = args[1];
 
 console.log(add(a, b));
