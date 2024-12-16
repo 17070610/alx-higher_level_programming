@@ -2,7 +2,7 @@
 
 const args = process.argv.slice(2);
 
-function add(a, b) {
+function add (a, b) {
   return (parseInt(a, 10) + parseInt(b, 10));
 }
 
